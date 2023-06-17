@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Learn</title>
+</head>
+<body>
+
+    - git 工作；流程
+    
+    【工作区 workding directory】 -> 【暂存区 Staged】 -> 【】
+
+
+    1. Set global command 
+
+        git config --global user.name 'Pan Chen'
+        git config --global user.email 'pc87031156@gmail.com' 
+    
+    2. Get help 
+
+        git 'verb' -h 
+
+    3. initlize a normal folder to git hub folder -> 初始化git目录
+
+        git init  
+
+
+    4. git status -> 显示文件状态
+
+            - 简写 ： git status -s / git status --short -> 结果如果是以 ?? 开头的 表示该文件并没有存入 git 目录中
+
+    5. git add 'GitTesting.html' -> 将该文件跟踪加入进 缓存区
+
+        - 使用 git status 重新检测 
+            
+            - 简写 ： git status -s / git status --short -> 结果是 A 的话 证明该文件已经加入进 【缓存区】 中
+
+
+</body>
+</html>
