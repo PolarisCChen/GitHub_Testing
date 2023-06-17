@@ -9,7 +9,7 @@
 
     - git 工作；流程
     
-    【工作区 workding directory】 -> 【暂存区 Staged】 -> 【】
+    【工作区 workding directory】 -> 【暂存区 Staged】 -> 【完成区 commited】
 
 
     1. Set global command 
@@ -36,6 +36,14 @@
             
             - 简写 ： git status -s / git status --short -> 结果是 A 的话 证明该文件已经加入进 【缓存区】 中
 
+
+    6. git commit -> 将缓存区的文件提交至 【完成区】
+
+        - git commit -m 'Add GitTesting html file'
+
+            - 使用 git status 重新检测
+
+                - 简写 ： git status -s / git status --short -> 结果是 M 的话 证明该文件已经加入进 【完成区】 中 
 
 </body>
 </html>
