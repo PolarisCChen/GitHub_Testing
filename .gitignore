@@ -1,0 +1,7 @@
+
+
+#忽略 testing.txt 文件
+testing*
+
+# 忽略test 目录下的子文件
+test/
