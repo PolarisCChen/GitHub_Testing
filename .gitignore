@@ -5,3 +5,6 @@ testing*
 
 # 忽略test 目录下的子文件
 test/
+
+# 忽略GithubTesting 目录
+GitHub_SSHTesting/
