@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Learn</title>
+    <link rel="stylesheet" href="getTesting.css">
 </head>
 <body>
 
@@ -59,7 +60,23 @@
 
             - git checkout -- 文件名        -> 一旦执行此命令当前修改就没有了
     
+    9. 一次提交多个文件进入【暂缓区】 
 
+        - git add . -> 执行此命令后将会把当前目录中 新添加的 或者修改 都会加入进暂缓区中  
+
+    
+    10. 删除暂缓区的文件    
+
+        - git reset HEAD 文件
+
+        - git reset HEAD . -> 删除所有暂存区的文件
+
+    11. 【工作区】 -> 【暂缓区】 -> 【Git仓库】
+
+        - 此时执行以下命令可以直接从 【工作区】 -> 【Git仓库】
+
+
+        - git commit -a -m '跳过了 暂缓区直接提交进Git仓库'
 
 
 </body>
